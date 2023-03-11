@@ -1,0 +1,76 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<head>
+  <h1 id="title"><p>Cat Form</h1>
+</head>
+<body>
+  <p id="description"> A short survey about which of The Goodest Girls is your favourite? :D </p>
+  <img src="http://i.imgur.com/kpsls1a.png" width="40%" class="img" ><br>
+  <form id="survey-form">
+    <label for="name" id="name-label"> Your name: </label>
+    <input id="name" type="text" required placeholder="John Smith"><br>
+    <label for="email" id="email-label">Your email:
+    <input id="email" type="email" name="email" required placeholder="johnsmith@kittycatmail.com"><br>
+    <label for="number" id="number-label">Your age: </label>
+    <input id="number" type="number" name="number" required min="13" max="120" placeholder="21"><br>
+    <label> Where did you first encounter the best cats ever? </label>
+    <select id="dropdown">
+      <option> Please select </option>
+      <option> Leeds flat </option>
+      <option> Glasgow flat </option>
+      <option> Pippin has haunted my dreams for several years </option>
+      <option> Other </option>
+    </select><br>
+    <h2>Should Clio be allowed another cat?</h2>
+    <label>Yes</label>
+    <input type="radio" name="morecat" id="yes" value="yes"><br>
+    <label>Ofc</label>
+    <input type="radio" name="morecat" id="ofc" value="ofc"><br>
+    <label>Two more actually!</label>
+    <input type="radio" name="morecat" id="doublecat" value="doublecat">
+    <h2>Cat vote time</h2>
+    <label>Cookie</label>
+    <input type="checkbox" id="cookie" name="cookie" value="cookie"><br>
+    <label>Crumble</label>
+    <input type="checkbox" id="crumble" name="crumble" value="crumble"><br>
+    <label>Baby Phil</label>
+    <input type="checkbox" id="BabyPhil" name="BabyPhil" value="BabyPhil"><br>
+    <b><p>If Clio was allowed another cat, what should she call it? </p></b>
+    <textarea id="future cat name" name="future cat name" rows="4" cols="50" placeholder="Kitty Cat"></textarea><br><br>
+    <input id="submit" type="submit">
+  </form>
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: #eecafc;
+  border-style: double;
+}
+h1 {
+  text-align: center;
+  font-family: Tahoma;
+}
+h2 {
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+}
+form {
+  padding: 50px
+}
+.img {
+  padding-left: 228px;
+
+}
+
+** end of undefined **
+
